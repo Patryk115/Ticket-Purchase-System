@@ -32,8 +32,7 @@ The system is highly resilient and handles multiple real-world scenarios and edg
 
 
 ## How to Run Locally
-
-To run this workflow system on your machine, you need a running instance of Camunda 8 (either Self-Managed via Docker or Camunda SaaS).
+> **Note:** This project was developed using a Camunda 8 SaaS Educational/Trial license. To run the workers locally, you must provide your own active Camunda 8 cluster credentials in the `application.properties` file. Reviewers are encouraged to inspect the `bpmn_diagram.png` and the worker logic in the source code.
 
 **1. Clone the repository:**
 ```bash
